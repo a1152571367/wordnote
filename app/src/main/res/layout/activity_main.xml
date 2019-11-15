@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+<!--        <Button-->
+<!--            android:id="@+id/button"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_weight="1"-->
+<!--            android:text="点击创建数据库" />-->
+
+        <EditText
+            android:id="@+id/word_input"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"></EditText>
+
+        <Button
+            android:id="@+id/button_search"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="点击查询" />
+
+        <Button
+            android:id="@+id/button_store"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="存入数据库" />
+
+        <Button
+            android:id="@+id/button_store_newdict"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="存入新词典数据库" />
+
+        <TextView
+            android:id="@+id/output"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="结果" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:background="#C4C4C4"
+                android:gravity="center|left"
+                android:text="单词"
+                android:textSize="15dp" />
+
+            <TextView
+                android:id="@+id/key_main"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:minHeight="50dp"
+                android:gravity="top|left"
+                android:textSize="15dp"
+                android:ems="10"
+                />
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:background="#C4C4C4"
+                android:gravity="center|left"
+                android:text="词义"
+                android:textSize="15dp" />
+
+            <TextView
+                android:id="@+id/inter_main"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:minHeight="50dp"
+                android:gravity="top|left"
+                android:textSize="15dp"
+                android:ems="10"
+                />
+
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:background="#C4C4C4"
+                android:gravity="center|left"
+                android:text="英式音标"
+                android:textSize="15dp" />
+
+            <TextView
+                android:id="@+id/UNps_main"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:minHeight="50dp"
+                android:gravity="top|left"
+                android:textSize="15dp"
+                android:ems="10"
+                >
+            </TextView>
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:background="#C4C4C4"
+                android:gravity="center|left"
+                android:text="美式音标"
+                android:textSize="15dp" />
+
+            <TextView
+                android:id="@+id/USps_main"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:minHeight="50dp"
+                android:gravity="top|left"
+                android:textSize="15dp"
+                android:ems="10" >
+            </TextView>
+<!--            <TextView-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+
+<!--                android:background="#C4C4C4"-->
+<!--                android:gravity="center|left"-->
+<!--                android:text="例句"-->
+<!--                android:textSize="15dp" />-->
+
+<!--            <TextView-->
+<!--                android:id="@+id/word_orig_main"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:minHeight="50dp"-->
+<!--                android:gravity="top|left"-->
+<!--                android:textSize="15dp"-->
+<!--                android:ems="10"-->
+<!--                />-->
+<!--            <TextView-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+
+<!--                android:background="#C4C4C4"-->
+<!--                android:gravity="center|left"-->
+<!--                android:text="例句翻译"-->
+<!--                android:textSize="15dp" />-->
+
+<!--            <TextView-->
+<!--                android:id="@+id/word_trans_main"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:minHeight="50dp"-->
+<!--                android:gravity="top|left"-->
+<!--                android:textSize="15dp"-->
+<!--                android:ems="10"-->
+<!--                />-->
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:id="@+id/vis_layout"
+    android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/textView_land"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:gravity="center"
+        android:text="单词详解"
+        android:textSize="18dp" />
+
+    <TextView
+        android:id="@+id/textView1_land"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:background="#C4C4C4"
+        android:gravity="center|left"
+        android:text="单词"
+        android:textSize="15dp" />
+
+    <TextView
+        android:id="@+id/key_land"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="50dp"
+        android:gravity="top|left"
+        android:textSize="15dp"
+        android:ems="10"
+        />
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:background="#C4C4C4"
+        android:gravity="center|left"
+        android:text="词义"
+        android:textSize="15dp" />
+
+    <EditText
+        android:id="@+id/inter_land"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="50dp"
+        android:gravity="top|left"
+        android:textSize="15dp"
+        android:ems="10"
+        />
+
+
+    <TextView
+        android:id="@+id/textView2_land"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:background="#C4C4C4"
+        android:gravity="center|left"
+        android:text="英式音标"
+        android:textSize="15dp" />
+
+    <TextView
+        android:id="@+id/UNps_land"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="50dp"
+        android:gravity="top|left"
+        android:textSize="15dp"
+        android:ems="10"
+        >
+    </TextView>
+
+    <TextView
+        android:id="@+id/textView3_land"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:background="#C4C4C4"
+        android:gravity="center|left"
+        android:text="美式音标"
+        android:textSize="15dp" />
+
+    <TextView
+        android:id="@+id/USps_land"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="50dp"
+        android:gravity="top|left"
+        android:textSize="15dp"
+        android:ems="10" >
+    </TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:background="#C4C4C4"
+        android:gravity="center|left"
+        android:text="例句"
+        android:textSize="15dp" />
+
+    <EditText
+        android:id="@+id/word_orig_land"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="50dp"
+        android:gravity="top|left"
+        android:textSize="15dp"
+        android:ems="10"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:background="#C4C4C4"
+        android:gravity="center|left"
+        android:text="例句翻译"
+        android:textSize="15dp" />
+
+    <EditText
+        android:id="@+id/word_trans_land"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="50dp"
+        android:gravity="top|left"
+        android:textSize="15dp"
+        android:ems="10"
+        />
+
+</LinearLayout>
